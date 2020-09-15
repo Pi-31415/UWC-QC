@@ -17,7 +17,15 @@
             font-size: 30px;
             text-align: center;
         }
+
+        /* On screens that are 600px or less, set the background color to olive */
+        @media screen and (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: auto;
+            }
+        }
     </style>
+    <script src="https://kit.fontawesome.com/67e52b6d84.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -36,15 +44,9 @@
     -->
 
     <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
+        <div class="grid-item">
+            
+        </div>
     </div>
 
 </body>
